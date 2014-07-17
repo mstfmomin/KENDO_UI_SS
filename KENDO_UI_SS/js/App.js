@@ -192,7 +192,7 @@ function StopEvent(evt) {
         }
     });
 })(jQuery);
-; (function ($) {
+; /*(function ($) {
 
     function Setup() {
 
@@ -279,7 +279,7 @@ function StopEvent(evt) {
         Operate(false);
     });
 
-} (jQuery));
+} (jQuery));*/
 ; (function ($) {
 
     var LocationManager = function () {

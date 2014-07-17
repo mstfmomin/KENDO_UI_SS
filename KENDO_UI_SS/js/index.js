@@ -32,9 +32,9 @@ var app = {
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
+    /*onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        if (localStorage.getItem("Initialized") === null){
+        if (localStorage.getItem("Initialized") == null){
             localStorage.setItem("locationid", "0")
             localStorage.setItem("CustomerID", "0");
             localStorage.setItem("CustomerFirstName", "");
@@ -65,7 +65,7 @@ var app = {
         //console.log('CustomerName: ' + localStorage.CustomerName);
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
     },
-
+*/
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         //var parentElement = document.getElementById(id);
